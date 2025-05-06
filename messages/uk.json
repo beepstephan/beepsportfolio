@@ -1,0 +1,56 @@
+{
+  "Home": {
+    "title": "ONE-CLICK FOR ASSET DEFENSE",
+    "description": "Dive into the art assets, where innovative blockchain technology meets financial expertise.",
+    "spark": "Unlock Your Assets Spark",
+    "openApp": "Open App",
+    "discoverMore": "Discover More",
+    "cta": "View Projects",
+    "rightsReserved": "All rights reserved"
+  },
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Projects": {
+    "title": "Мої проєкти",
+    "technologies": "Технології",
+    "beepsblog": {
+      "title": "Beepsblog",
+      "description": "Блог-платформа з авторизацією через Google і бекендом на Firebase, розгорнута на Netlify.",
+      "technologies": "React, Firebase, Netlify"
+    },
+    "beepsSteamHelper": {
+      "title": "Beeps Steam Helper",
+      "description": "Full-stack додаток для рекомендацій ігор у Steam із авторизацією через Steam, інтеграцією Steam API та OpenAI API, тестами (Jest, Vitest).",
+      "technologies": "React, NestJS, Steam API, OpenAI API, Jest, PostgreSQL, Redis, TailwindCSS"
+    },
+    "kinobratva": {
+      "title": "Kinobratva",
+      "description": "Сайт про фільми з інтеграцією IMDB API, розгорнутий на Netlify.",
+      "technologies": "React, IMDB API, TailwindCSS, Netlify"
+    },
+    "liveDemo": "Live Demo",
+    "github": "GitHub"
+  },
+  "About": {
+    "title": "Про мене",
+    "description": "Я JavaScript розробник із пристрастю до створення сучасних веб-додатків. Маю досвід із React, NestJS, TypeScript та іншими технологіями."
+  },
+  "Contact": {
+    "title": "Контакти",
+    "description": "Зв’яжіться зі мною через email або соціальні мережі.",
+    "form": {
+      "name": "Ім’я",
+      "namePlaceholder": "Ваше ім’я",
+      "email": "Email",
+      "emailPlaceholder": "Ваш email",
+      "message": "Повідомлення",
+      "messagePlaceholder": "Ваше повідомлення",
+      "submit": "Відправити"
+    },
+    "orContact": "Або напишіть мені на:"
+  }
+}

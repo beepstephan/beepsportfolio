@@ -1,0 +1,56 @@
+{
+  "Home": {
+    "title": "ОДИН КЛІК ДЛЯ ЗАХИСТУ АКТИВІВ",
+    "description": "Поринь у мистецтво активів, де інноваційні блокчейн-технології поєднуються з фінансовою експертизою.",
+    "spark": "Розкрий іскру своїх активів",
+    "openApp": "Відкрити додаток",
+    "discoverMore": "Дізнатися більше",
+    "cta": "Переглянути проєкти",
+    "rightsReserved": "Усі права захищені"
+  },
+  "Navbar": {
+    "home": "Головна",
+    "about": "Про мене",
+    "projects": "Проєкти",
+    "contact": "Контакти"
+  },
+  "Projects": {
+    "title": "My Projects",
+    "technologies": "Technologies",
+    "beepsblog": {
+      "title": "Beepsblog",
+      "description": "A blog platform with Google authentication and Firebase backend, deployed on Netlify.",
+      "technologies": "React, Firebase, Netlify"
+    },
+    "beepsSteamHelper": {
+      "title": "Beeps Steam Helper",
+      "description": "A full-stack app for Steam game recommendations with Steam authentication, Steam API, OpenAI API integration, and tests (Jest, Vitest).",
+      "technologies": "React, NestJS, Steam API, OpenAI API, Jest, PostgreSQL, Redis, TailwindCSS"
+    },
+    "kinobratva": {
+      "title": "Kinobratva",
+      "description": "A movie website with IMDB API integration, deployed on Netlify.",
+      "technologies": "React, IMDB API, TailwindCSS, Netlify"
+    },
+    "liveDemo": "Live Demo",
+    "github": "GitHub"
+  },
+  "About": {
+    "title": "About Me",
+    "description": "I’m a JavaScript developer passionate about building modern web applications. I have experience with React, NestJS, TypeScript, and other technologies."
+  },
+  "Contact": {
+    "title": "Contact",
+    "description": "Reach out to me via email or social media.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "Your email",
+      "message": "Message",
+      "messagePlaceholder": "Your message",
+      "submit": "Submit"
+    },
+    "orContact": "Or contact me at:"
+  }
+}

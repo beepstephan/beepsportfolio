@@ -5,7 +5,7 @@
   --foreground: #171717;
 }
 
-@theme inline {
+ inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -23,4 +23,104 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.vhs-effect::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('/noise.jpg');
+  opacity: 0.2;
+  z-index: 30;
+  pointer-events: none;
+  animation: staticNoise 1s infinite steps(10);
+}
+
+@keyframes staticNoise {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+
+@keyframes glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px rgba(168, 85, 247, 0.6));
+  }
+  50% {
+    filter: drop-shadow(0 0 25px rgba(168, 85, 247, 1));
+  }
+}
+
+.animate-glow {
+  animation: glow 4s ease-in-out infinite;
+}
+
+.vhs-border {
+  position: relative;
+  border: 2px solid rgba(255, 0, 255, 0.4);
+  box-shadow:
+    0 0 4px rgba(255, 0, 255, 0.3),
+    0 0 8px rgba(255, 0, 255, 0.5),
+    inset 0 0 8px rgba(255, 0, 255, 0.3);
+  animation: vhsPulse 2s infinite alternate;
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+}
+
+@keyframes vhsPulse {
+  0% {
+    box-shadow:
+      0 0 2px rgba(255, 0, 255, 0.2),
+      0 0 6px rgba(255, 0, 255, 0.3),
+      inset 0 0 6px rgba(255, 0, 255, 0.2);
+  }
+  100% {
+    box-shadow:
+      0 0 6px rgba(255, 0, 255, 0.5),
+      0 0 12px rgba(255, 0, 255, 0.6),
+      inset 0 0 12px rgba(255, 0, 255, 0.4);
+  }
+}
+
+.spark-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(white 1px, transparent 1px);
+  background-size: 4px 4px;
+  opacity: 0.1;
+  animation: sparkles 2s infinite ease-in-out;
+  z-index: 0;
+}
+
+@keyframes sparkles {
+  0%, 100% {
+    opacity: 0.1;
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    transform: translate(-2px, 2px) scale(1.02);
+  }
+}
+
+.sparkle-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('/sparkle.jpg');
+  background-size: cover;
+  opacity: 0;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  animation: sparkleFade 8s ease-in-out infinite;
+}
+
+@keyframes sparkleFade {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
 }
