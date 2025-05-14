@@ -1,9 +1,7 @@
-import type { Metadata } from "next";
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import "../globals.css";
 import { routing } from "@/i18n/routing";
-import { NavBar } from "../../../components/NavBar";
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
