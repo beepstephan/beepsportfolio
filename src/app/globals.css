@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
 
 :root {
   --background: #ffffff;
@@ -123,4 +126,129 @@ body {
   50% {
     opacity: 0.2;
   }
+}
+
+.neon-text {
+  text-shadow:
+    0 0 5px #ff00ff,
+    0 0 10px #ff00ff,
+    0 0 20px #ff00ff,
+    0 0 40px #ff00ff;
+}
+
+@keyframes flicker-pink {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 6px #ec4899, 0 0 12px #ec4899, 0 0 18px #ec4899;
+  }
+  20% {
+    opacity: 0.95;
+    box-shadow: 0 0 3px #ec4899, 0 0 6px #ec4899;
+  }
+  40% {
+    opacity: 0.9;
+    box-shadow: 0 0 8px #ec4899, 0 0 14px #ec4899;
+  }
+  60% {
+    opacity: 0.85;
+    box-shadow: 0 0 4px #ec4899, 0 0 10px #ec4899;
+  }
+  80% {
+    opacity: 1;
+    box-shadow: 0 0 10px #ec4899, 0 0 16px #ec4899;
+  }
+}
+
+.flicker-pink {
+  animation: flicker-pink 7s infinite;
+}
+
+@keyframes flicker-blue {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 6px #38bdf8, 0 0 12px #38bdf8, 0 0 18px #38bdf8;
+  }
+  20% {
+    opacity: 0.95;
+    box-shadow: 0 0 3px #38bdf8, 0 0 6px #38bdf8;
+  }
+  40% {
+    opacity: 0.9;
+    box-shadow: 0 0 8px #38bdf8, 0 0 14px #38bdf8;
+  }
+  60% {
+    opacity: 0.85;
+    box-shadow: 0 0 4px #38bdf8, 0 0 10px #38bdf8;
+  }
+  80% {
+    opacity: 1;
+    box-shadow: 0 0 10px #38bdf8, 0 0 16px #38bdf8;
+  }
+}
+
+.flicker-blue {
+  animation: flicker-blue 6s infinite;
+}
+
+@keyframes flicker-green {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 6px #01943a, 0 0 12px #01943a, 0 0 18px #01943a;
+  }
+  20% {
+    opacity: 0.95;
+    box-shadow: 0 0 3px #01943a, 0 0 6px #01943a;
+  }
+  40% {
+    opacity: 0.9;
+    box-shadow: 0 0 8px #01943a, 0 0 14px #01943a;
+  }
+  60% {
+    opacity: 0.85;
+    box-shadow: 0 0 4px #01943a, 0 0 10px #01943a;
+  }
+  80% {
+    opacity: 1;
+    box-shadow: 0 0 10px #01943a, 0 0 16px #01943a;
+  }
+}
+
+.flicker-green {
+  animation: flicker-green 5s infinite;
+}
+
+@keyframes flicker-red {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 6px #c00f0f, 0 0 12px #c00f0f, 0 0 18px #c00f0f;
+  }
+  20% {
+    opacity: 0.95;
+    box-shadow: 0 0 3px #c00f0f, 0 0 6px #c00f0f;
+  }
+  40% {
+    opacity: 0.9;
+    box-shadow: 0 0 8px #c00f0f, 0 0 14px #c00f0f;
+  }
+  60% {
+    opacity: 0.85;
+    box-shadow: 0 0 4px #c00f0f, 0 0 10px #c00f0f;
+  }
+  80% {
+    opacity: 1;
+    box-shadow: 0 0 10px #c00f0f, 0 0 16px #c00f0f;
+  }
+}
+
+.flicker-red {
+  animation: flicker-red 9s infinite;
+}
+
+.social-icon {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 10px rgba(168, 85, 247, 0.8));
 }

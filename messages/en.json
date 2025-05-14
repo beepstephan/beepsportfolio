@@ -1,56 +1,112 @@
 {
   "Home": {
-    "title": "ОДИН КЛІК ДЛЯ ЗАХИСТУ АКТИВІВ",
-    "description": "Поринь у мистецтво активів, де інноваційні блокчейн-технології поєднуються з фінансовою експертизою.",
-    "spark": "Розкрий іскру своїх активів",
-    "openApp": "Відкрити додаток",
-    "discoverMore": "Дізнатися більше",
-    "cta": "Переглянути проєкти",
-    "rightsReserved": "Усі права захищені"
+    "pagetitle": "Home • Beeps Inc.",
+    "title": "beeps Inc.",
+    "description": "IT solutions with a soul",
+    "welcome": "Welcome to the beeps Inc. software workshop!",
+    "explore": "Explore the challenges the company addresses below...",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me",
+    "techStack": "Tech Stack",
+    "rightsReserved": "All rights reserved."
   },
-  "Navbar": {
-    "home": "Головна",
-    "about": "Про мене",
-    "projects": "Проєкти",
-    "contact": "Контакти"
+  "NavBar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Accordion": {
+    "whatIsBeeps": "What is beeps Inc.?",
+    "whatIsBeepsContent": "beeps Inc. is an IT company founded by Ihor beepstephan, specializing in creating modern web applications using fresh cutting-edge technologies like React, Next.js, and NestJS.",
+    "whatIsBeepsGuide": "Learn more about our services and projects by visiting",
+    "whatIsBeepsGuideLink": "our projects page",
+    "whatIsBeepsGuideEnd": "to see how we can help your business.",
+    "taskComplexity": "What level of complexity can beeps Inc. handle?",
+    "taskComplexityContent": "We are capable of tackling tasks of any complexity: from simple web applications to intricate full-stack projects with AI integration.",
+    "taskComplexityGuide": "Check out",
+    "taskComplexityGuideLink": "our projects",
+    "taskComplexityGuideEnd": "to learn more about our capabilities.",
+    "teamComposition": "What is the team composition at beeps Inc.?",
+    "teamCompositionContent1": "Currently, beeps Inc. is a one-person team, with Ihor beepstephan taking on the roles of developer, designer, and project manager.",
+    "teamCompositionContent2": "Despite the small size, we are actively working on expanding the team and looking for talented professionals.",
+    "teamCompositionContent3": "If you’d like to join us or hire me, reach out via the contact page!"
+  },
+  "Footer": {
+    "github": "GitHub",
+    "telegram": "Telegram",
+    "discord": "Discord",
+    "contact": "Contact"
   },
   "Projects": {
-    "title": "My Projects",
-    "technologies": "Technologies",
-    "beepsblog": {
-      "title": "Beepsblog",
-      "description": "A blog platform with Google authentication and Firebase backend, deployed on Netlify.",
-      "technologies": "React, Firebase, Netlify"
-    },
-    "beepsSteamHelper": {
-      "title": "Beeps Steam Helper",
-      "description": "A full-stack app for Steam game recommendations with Steam authentication, Steam API, OpenAI API integration, and tests (Jest, Vitest).",
-      "technologies": "React, NestJS, Steam API, OpenAI API, Jest, PostgreSQL, Redis, TailwindCSS"
-    },
-    "kinobratva": {
-      "title": "Kinobratva",
-      "description": "A movie website with IMDB API integration, deployed on Netlify.",
-      "technologies": "React, IMDB API, TailwindCSS, Netlify"
-    },
-    "liveDemo": "Live Demo",
-    "github": "GitHub"
+    "pagetitle": "Projects • Beeps Inc.",
+    "title": "Our Projects",
+    "description": "Explore our IT developments.",
+    "project1Title": "Kinobratva",
+    "project1Desc": "A web application for viewing available movies in cinemas.",
+    "project1Tech": "ReactJS, TailwindCSS",
+    "project2Title": "Beepsblog",
+    "project2Desc": "A web application with Google authorization, where any user can leave a message.",
+    "project2Tech": "ReactJS, Firebase",
+    "project3Title": "Beeps SteamHelper",
+    "project3Desc": "A web application with authorization via Steam, where you can view your Steam account statistics and receive game recommendations using AI.",
+    "project3Tech": "ReactJS, NestJS, TailwindCSS, Zustand, PostgreSQL, Redis, OpenAI API, Steam API, Steam OpenID"
   },
   "About": {
-    "title": "About Me",
-    "description": "I’m a JavaScript developer passionate about building modern web applications. I have experience with React, NestJS, TypeScript, and other technologies."
+    "pagetitle": "About Us • Beeps Inc.",
+    "title": "About Us",
+    "description": "Learn more about our team and values.",
+    "mission": "Our mission",
+    "mission1": "To create fast and high-quality software using the latest technologies and implementing new trends, which will help our customers stay in the flow.",
+    "team": "Our team",
+    "team1": "Our team consists of talented developers and designers, we would like to hear it, but at the moment our team consists of only one person, namely Ihor beepstephan.",
+    "bio": "Founder's programming background"
   },
   "Contact": {
     "title": "Contact",
-    "description": "Reach out to me via email or social media.",
-    "form": {
-      "name": "Name",
-      "namePlaceholder": "Your name",
-      "email": "Email",
-      "emailPlaceholder": "Your email",
-      "message": "Message",
-      "messagePlaceholder": "Your message",
-      "submit": "Submit"
-    },
-    "orContact": "Or contact me at:"
+    "description": "Get in touch with us for collaboration or support.",
+    "email": "Email: beepsincorporation@gmail.com",
+    "phone": "Phone: +38 096 264 0126",
+    "emailLabel": "Your Email",
+    "emailPlaceholder": "Enter your email",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Enter your message",
+    "submitText": "Submit",
+    "thankYouText": "Thank you for your message!",
+    "discord": "Discord",
+    "telegram": "Telegram",
+    "github": "GitHub",
+    "steam": "Steam"
+  },
+  "BioTimeline": {
+    "event1Year": "December 2018",
+    "event1Text": "During computer science lessons, I got acquainted with my first programming language, Pascal, which didn’t inspire me to continue programming.",
+    "event2Year": "September 2022",
+    "event2Text": "I enrolled in a local university majoring in Software Engineering, where I started learning the basics of programming with C++.",
+    "event3Year": "February - May 2023",
+    "event3Text": "I developed my programming skills, learned OOP, and got introduced to Assembly language. I also worked on my first major project.",
+    "event4Year": "November 2023",
+    "event4Text": "I worked on my first major project evaluating the professors of my department. The technologies used were C#, Windows Forms, and MySQL.",
+    "event5Year": "February - April 2024",
+    "event5Text": "I participated in competitive programming at the regional and local levels, learning databases and the Python language.",
+    "event6Year": "May 2024",
+    "event6Text": "I completed a small project with a partner—a software for managing car dealerships. The technologies used were C#, Windows Forms, and PostgreSQL.",
+    "event7Year": "Summer 2024",
+    "event7Text": "I started exploring web technologies. I learned JavaScript and the React library through a Udemy course, enjoyed it, and began diving deeper into this field.",
+    "event8Year": "September 2024",
+    "event8Text": "I worked on my first relatively large project with React and TailwindCSS called Kinobratva, a web app for viewing movies currently in theaters.",
+    "event9Year": "October 2024",
+    "event9Text": "I attempted my first test task at a local IT company, which I failed due to a lack of knowledge in using NestJS for backend development. This helped me identify the tech stack I want to master next, and I returned to my university studies.",
+    "event10Year": "January 2025",
+    "event10Text": "I created a blog project using React and Firebase.",
+    "event11Year": "February - April 2025",
+    "event11Text": "I wanted to solidify my React knowledge after completing a course with a simple app for randomizing computer games, but ended up creating a large full-stack project called Beeps Steamhelper using ReactJS, ViteJS, NestJS, Zustand, PostgreSQL, Redis, Steam OpenID, Steam API, and OpenAI API.",
+    "event12Year": "May 2025 - ",
+    "event12Text": "I plan to expand my tech stack by adding React Native, Flutter, and Golang."
+  },
+  "NotFound": {
+    "title": "404 - Page Not Found",
+    "description": "Oops, looks like you’ve wandered into the digital void! Head back home.",
+    "backHome": "Back to Home"
   }
 }

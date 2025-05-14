@@ -1,56 +1,113 @@
 {
   "Home": {
-    "title": "ONE-CLICK FOR ASSET DEFENSE",
-    "description": "Dive into the art assets, where innovative blockchain technology meets financial expertise.",
-    "spark": "Unlock Your Assets Spark",
-    "openApp": "Open App",
-    "discoverMore": "Discover More",
-    "cta": "View Projects",
-    "rightsReserved": "All rights reserved"
+    "pagetitle": "Головна • Beeps Inc.",
+    "title": "beeps Inc.",
+    "description": "IT рішення, в які вкладено душу",
+    "welcome": "Ласкаво просимо до майстерні програмного забезпечення beeps Inc.!",
+    "explore": "Перегляньте задачі, які вирішує компанія нижче...",
+    "viewProjects": "Переглянути проєкти",
+    "contactMe": "Зв’язатися зі мною",
+    "techStack": "Технологічний стек",
+    "rightsReserved": "Усі права захищені."
   },
-  "Navbar": {
-    "home": "Home",
-    "about": "About",
-    "projects": "Projects",
-    "contact": "Contact"
+  "NavBar": {
+    "home": "Головна",
+    "about": "Про нас",
+    "contact": "Контакти",
+    "projects": "Проєкти"
+  },
+  "Accordion": {
+    "whatIsBeeps": "Що таке beeps Inc.?",
+    "whatIsBeepsContent": "beeps Inc. — це IT-компанія, заснована Ігорем beepstephan’ом. Компанія спеціалізується на створенні сучасних веб-застосунків із використанням свіжих технологій, таких як React, Next.js і NestJS.",
+    "whatIsBeepsGuide": "Дізнайтесь більше про наші послуги та проєкти, відвідавши",
+    "whatIsBeepsGuideLink": "нашу сторінку проєктів",
+    "whatIsBeepsGuideEnd": ", щоб побачити, як ми можемо допомогти вашому бізнесу.",
+    "taskComplexity": "Завдання якої складності може виконати beeps Inc.?",
+    "taskComplexityContent": "Ми здатні вирішувати завдання будь-якої складності: від простих веб-застосунків до складних full-stack проєктів із інтеграцією штучного інтелекту.",
+    "taskComplexityGuide": "Ознайомтесь із",
+    "taskComplexityGuideLink": "нашими проєктами",
+    "taskComplexityGuideEnd": ", щоб дізнатися більше про наші можливості.",
+    "teamComposition": "Який склад персоналу в beeps Inc.?",
+    "teamCompositionContent1": "Наразі beeps Inc. — це команда з однієї людини, Ігоря beepstephan’а, який виконує ролі розробника, дизайнера та менеджера проєктів.",
+    "teamCompositionContent2": "Незважаючи на невеликий склад, ми(я) активно працюємо над розширенням команди та шукаємо талановитих спеціалістів.",
+    "teamCompositionContent3": "Якщо ви хочете приєднатися до нас або найняти мене, зв’яжіться через сторінку контактів!"
+  },
+  "Footer": {
+    "github": "GitHub",
+    "telegram": "Telegram",
+    "discord": "Discord",
+    "contact": "Контакти"
   },
   "Projects": {
-    "title": "Мої проєкти",
-    "technologies": "Технології",
-    "beepsblog": {
-      "title": "Beepsblog",
-      "description": "Блог-платформа з авторизацією через Google і бекендом на Firebase, розгорнута на Netlify.",
-      "technologies": "React, Firebase, Netlify"
-    },
-    "beepsSteamHelper": {
-      "title": "Beeps Steam Helper",
-      "description": "Full-stack додаток для рекомендацій ігор у Steam із авторизацією через Steam, інтеграцією Steam API та OpenAI API, тестами (Jest, Vitest).",
-      "technologies": "React, NestJS, Steam API, OpenAI API, Jest, PostgreSQL, Redis, TailwindCSS"
-    },
-    "kinobratva": {
-      "title": "Kinobratva",
-      "description": "Сайт про фільми з інтеграцією IMDB API, розгорнутий на Netlify.",
-      "technologies": "React, IMDB API, TailwindCSS, Netlify"
-    },
-    "liveDemo": "Live Demo",
-    "github": "GitHub"
+    "pagetitle": "Проєкти • Beeps Inc.",
+    "title": "Наші проєкти",
+    "description": "Ознайомтеся з нашими IT-розробками.",
+    "project1Title": "Кінобратва",
+    "project1Desc": "Веб-застосунок для перегляду доступних фільмів у кінотеатрах.",
+    "project1Tech": "ReactJS, TailwindCSS",
+    "project2Title": "Біпсблог",
+    "project2Desc": "Веб-застосунок з авторизацією через Гугл, в якому будь які користувачі можуть залишити повідомлення.",
+    "project2Tech": "ReactJS, Firebase",
+    "project3Title": "Beeps SteamHelper",
+    "project3Desc": "Веб-застосунок з авторизацією через Стім, де можна переглядати свою статистику акаунту Стім, отримувати рекомендації ігор за допомогою ШІ.",
+    "project3Tech": "ReactJS, NestJS, TailwindCSS, Zustand, PostgreSQL, Redis, OpenAI API, Steam API, Steam OpenID"
   },
   "About": {
-    "title": "Про мене",
-    "description": "Я JavaScript розробник із пристрастю до створення сучасних веб-додатків. Маю досвід із React, NestJS, TypeScript та іншими технологіями."
+    "pagetitle": "Про нас • Beeps Inc.",
+    "title": "Про нас",
+    "description": "Дізнайтеся більше про нашу команду та цінності.",
+    "mission": "Місія нашої компанії",
+    "mission1": "Створювати швидко та якісно програмне забезпечення за допомогою свіжих технологій та впроваджуючи нові тренди, завдяки чому наші клієнти залишатимуться в потоці.",
+    "team": "Склад команди",
+    "team1": "Наша команда складається з талановитих розробників і дизайнерів, хотілося б почути, але на даний момент наша команда складається лише з однієї людини, а саме Ігоря beepstephan'a.",
+    "bio": "Досвід програмування засновника"
   },
   "Contact": {
+    "pagetitle": "Контакти • Beeps Inc.",
     "title": "Контакти",
-    "description": "Зв’яжіться зі мною через email або соціальні мережі.",
-    "form": {
-      "name": "Ім’я",
-      "namePlaceholder": "Ваше ім’я",
-      "email": "Email",
-      "emailPlaceholder": "Ваш email",
-      "message": "Повідомлення",
-      "messagePlaceholder": "Ваше повідомлення",
-      "submit": "Відправити"
-    },
-    "orContact": "Або напишіть мені на:"
+    "description": "Зв’яжіться з нами для співпраці чи підтримки.",
+    "email": "Електронна пошта: beepsincorporation@gmail.com",
+    "phone": "Телефон: +38 096 264 0126",
+    "emailLabel": "Ваша електронна пошта",
+    "emailPlaceholder": "Введіть вашу електронну пошту",
+    "messageLabel": "Повідомлення",
+    "messagePlaceholder": "Введіть ваше повідомлення",
+    "submitText": "Надіслати",
+    "thankYouText": "Дякуємо за ваше повідомлення!",
+    "discord": "Discord",
+    "telegram": "Telegram",
+    "github": "GitHub",
+    "steam": "Steam"
+  },
+  "BioTimeline": {
+    "event1Year": "Грудень 2018",
+    "event1Text": "На уроках інформатики познайомився із першою мовою програмування Pascal, що не надихнуло мене програмувати далі.",
+    "event2Year": "Вересень 2022",
+    "event2Text": "Вступив до місцевого університету за спеціальністю 121 Інженерія програмного забезпечення, де і почав вивчати основи програмування з C++.",
+    "event3Year": "Лютий - Травень 2023",
+    "event3Text": "Розвиваю навички з програмування, знайомлюсь з ООП, а також із мовою Асемблер. Роблю перший великий проєкт.",
+    "event4Year": "Листопад 2023",
+    "event4Text": "Роблю перший великий проєкт з оцінювання викладачів своєї кафедри. Із технологій було використано мову програмування C#, Windows Forms, MySQL.",
+    "event5Year": "Лютий - Квітень 2024",
+    "event5Text": "Беру участь у олімпіадному програмуванні на обласному та регіональному рівні, опановую бази даних, мову Python.",
+    "event6Year": "Травень 2024",
+    "event6Text": "Виконую невеликий проєкт із напарником, а саме програмне забезпечення для керування автосалонами. Із технологій було використано C#, Windows Forms та PostgreSQL.",
+    "event7Year": "Літо 2024",
+    "event7Text": "Починаю дослідження вебтехнологій. Знайомлюсь з JavaScript та бібліотекою React за курсом у Udemy, мені подобається і я починаю поглиблювати знання в цій предметній області.",
+    "event8Year": "Вересень 2024",
+    "event8Text": "Роблю перший відносно великий проєкт на React та TailwindCSS, а саме Kinobratva, вебзастосунок для перегляду фільмів, які зараз йдуть у прокаті.",
+    "event9Year": "Жовтень 2024",
+    "event9Text": "Перший раз проходжу тестове завдання у місцевій IT-компанії, яке я провалюю через недолік знань у використанні NestJS для створення бекенду. Вже вимальовується для мене стек технологій, які я хочу далі опановувати, та повертаюсь до навчання в університеті.",
+    "event10Year": "Січень 2025",
+    "event10Text": "Зробив проєкт блогу за допомогою React та Firebase.",
+    "event11Year": "Лютий - Квітень 2025",
+    "event11Text": "Хотів закріпити свої знання React після проходження курсу простим застосунком рандомізації комп'ютерних ігор, а в результаті зробив досить великий full stack проєкт Beeps Steamhelper за допомогою ReactJS, ViteJS, NestJS, Zustand, PostgreSQL, Redis, Steam OpenID, Steam API, OpenAI API.",
+    "event12Year": "Травень 2025 - ",
+    "event12Text": "Планується розширити технологічний стек, додавши React Native, Flutter, Golang."
+  },
+  "NotFound": {
+    "title": "404 - Сторінку не знайдено",
+    "description": "Ой, здається, Ви заблукали у моєму портфоліо! Повертайся додому.",
+    "backHome": "Повернутися на головну"
   }
 }
