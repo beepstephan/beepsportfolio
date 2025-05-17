@@ -69,7 +69,7 @@ export const NavBar = () => {
             <li className="w-full flex items-center justify-center min-h-[48px]"><Link href="/" className="block text-white hover:text-blue-500">{t('home')}</Link></li>
             <li className="w-full flex items-center justify-center min-h-[48px]"><Link href="/about" className="block text-white hover:text-blue-500">{t('about')}</Link></li>
             <li className="w-full flex items-center justify-center min-h-[48px]"><Link href="/projects" className="block text-white hover:text-blue-500">{t('projects')}</Link></li>
-            <li className="w-full flex items-center justify-center min-h-[48px]"><Link href="/contact" className="block text-white hover:text-blue-500">{t('contact')}</Link></li>
+            <li className="w-full flex items-center justify-center min-h-[48px]"><Link href="/contacts" className="block text-white hover:text-blue-500">{t('contact')}</Link></li>
             <li className="w-full flex justify-center gap-2 pt-4">
               <button onClick={() => handleLanguageChange('en')} className="p-1 rounded hover:ring-2 ring-blue-500 transition">
                 <Image src="/flags/usa.png" alt="EN" width={24} height={24} />
