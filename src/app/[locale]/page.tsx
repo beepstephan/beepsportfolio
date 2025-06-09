@@ -36,7 +36,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <div className="absolute inset-0 z-0 pointer-events-none sparkle-overlay" />
 
         <div className="relative z-10 flex flex-col items-center min-h-screen px-5 pt-20 space-y-10">
-          <div className="m-6">
+          <div className="m-12">
             <Image
               src="/purplepill.png"
               alt="beeps Logo"
@@ -45,11 +45,11 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               className="animate-glow"
             />
           </div>
-          <div className="m-6">
+          <div className="m-12">
             <h1 className="m-6 text-center text-6xl font-bold tracking-wide text-cyan-100">
               <TypewriterComponent words={[t('title')]} loop={1} cursorStyle="_" typeSpeed={150} delaySpeed={200} />
             </h1>
-            <h2 className="text-3xl text-cyan-100 h-12 text-center font-semibold mb-16 sm:m-0">
+            <h2 className="text-3xl text-cyan-100 h-24 text-center font-semibold mb-24 sm:m-0">
               <TypewriterComponent words={[t('welcome'), t('explore')]} loop={true} cursorStyle="" typeSpeed={50} deleteSpeed={40} delaySpeed={2000} />
             </h2>
           </div>
