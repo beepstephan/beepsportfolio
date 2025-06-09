@@ -43,16 +43,16 @@ export default async function Contact({ params }: { params: Promise<{ locale: st
             <p className="text-gray-400 mb-4">{t('email')}</p>
             <p className="text-gray-400 mb-4">{t('phone')}</p>
             <div className="flex justify-center gap-6 mt-6">
-              <a href="https://discord.com/users/your-discord-id" target="_blank" rel="noopener noreferrer" className="social-icon animate-glow" title={t('discord')}>
+              <a href="https://discord.gg/FvAruaU2" target="_blank" rel="noopener noreferrer" className="social-icon animate-glow" title={t('discord')}>
                 <FaDiscord className="w-8 h-8 text-white hover:text-purple-400" />
               </a>
-              <a href="https://t.me/your-telegram-username" target="_blank" rel="noopener noreferrer" className="social-icon animate-glow" title={t('telegram')}>
+              <a href="https://t.me/adoremyvibe" target="_blank" rel="noopener noreferrer" className="social-icon animate-glow" title={t('telegram')}>
                 <FaTelegramPlane className="w-8 h-8 text-white hover:text-purple-400" />
               </a>
-              <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer" className="social-icon animate-glow" title={t('github')}>
+              <a href="https://github.com/beepstephan" target="_blank" rel="noopener noreferrer" className="social-icon animate-glow" title={t('github')}>
                 <FaGithub className="w-8 h-8 text-white hover:text-purple-400" />
               </a>
-              <a href="https://steamcommunity.com/id/your-steam-id" target="_blank" rel="noopener noreferrer" className="social-icon animate-glow" title={t('steam')}>
+              <a href="https://steamcommunity.com/profiles/76561199038113303/" target="_blank" rel="noopener noreferrer" className="social-icon animate-glow" title={t('steam')}>
                 <FaSteam className="w-8 h-8 text-white hover:text-purple-400" />
               </a>
             </div>
